@@ -1,0 +1,160 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Gudea|Rancho');
+
+
+body {
+  background-color: white;
+  font-family: Gudea, sans-serif;
+  padding: 5px 25px;
+  font-size: 16px;
+  margin: 0;
+  color: #444;
+  background-size: cover;
+}
+ 
+header {
+   background-image: url("image/beach.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 170px;
+   padding: 90px 10px 50px 10px;
+} /*resize the image*/
+
+h1 {
+  font-family: Rancho, cursive;
+  font-size: 46px;
+  text-align: right;
+  color: #9D3810;
+}
+
+h2 {
+  font-family:Gudea, sans-serif;
+  font-size: 6px;
+}
+
+h6 {font-family:Gudea, sans-serif;
+  font-size: 20px;
+} /*bigger font */
+
+.menubar{
+  list-style-type: none;
+  background-color: rgba(180, 59, 20, 1);
+  text-align: right;
+  
+}
+nav li {
+  display:inline-block;
+  padding: 4px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: Black;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.bodycolor{
+  background-color: rgba(233, 211, 187, 0.6);
+}
+
+.parent-of-flex {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+a {text-decoration: none;
+
+}
+
+.card {
+  background-color: rgba(170, 58, 27, 0.44);
+  border: 1px rgba(180, 59, 20, 0.8);
+  padding: 5px 5px;
+  display: 
+}
+
+.cardplaces img {width:150px;}
+/*change size of image*/
+.cardplaces {
+	width:300px;
+	margin:10px;
+  background-color: rgba(224, 206, 179, 0.4);
+  border-color: white;
+}
+
+.card-image {
+	margin:10px;
+	height:200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+  background-color: rgba(130, 182, 184, 0.5);
+} /*background color changed to blue*/
+
+.card-header {
+	font-size: 15px;
+	text-align: center;
+	margin:5px;
+	padding:5px;
+  
+}
+
+.card-content {
+	margin:10px;
+	padding:10px;
+  background-color: rgba(130, 182, 184, 0.5);
+}
+
+.card-container {
+	margin:10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.history-flex {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+
+.musicanddance2 {
+  background-color: rgba(170, 58, 27, 0.9);
+  border: 1px rgba(180, 59, 20, 0.8);
+  padding: 5px 5px;
+  margin:20px;
+	padding:20px;
+}
+
+.cardhistory {
+  background-color: rgba(170, 58, 27, 0.9);
+  border: 1px rgba(180, 59, 20, 0.8);
+  padding: 5px 5px;
+  margin:20px;
+	padding:20px;
+
+a { text-decoration: none;
+    color: black;
+} /* changed the color to black*/
+
+.cardplaces3 { background-color: rgba(130, 182, 184, 0.5);
+  border: 1px rgba(180, 59, 20, 0.8);
+  padding: 5px 5px;
+  margin:20px;
+	padding:20px;
+  
+}
+
